@@ -1,0 +1,79 @@
+#container0 {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#connectionInscription{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+}
+
+#container1 {
+        width: 980px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+.card:hover{
+    width:250px;
+    height:250px;
+    opacity: 0.5;
+}
+span{
+    background-color: rgb(255, 255, 255, 0.5);  
+}
+
+#céréales {
+    background-image: url("../Images/Céréales.jpg");
+}
+#fruitLégumes {
+    background-image: url("../Images/Fruit&Légumes.jpg");
+}
+#boisson {
+    background-image: url("../Images/Boisson.jpg");
+}
+#viande {
+    background-image: url("../Images/Viande.jpg");
+}
+#rayonFrait {
+    background-image: url("../Images/Rayon\ Frait.jpg");
+}
+#Promo {
+    background-image: url("../Images/Promo.jpg");
+}
+
+#footer {
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
